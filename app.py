@@ -319,7 +319,7 @@ def show_dashboard(auth):
 
     # Configurazione pagina
     st.set_page_config(
-        page_title="Cormorano Gest..",
+        page_title="Lanterna Gest..",
         page_icon="🏖️",
         layout="wide"
     )
@@ -715,7 +715,7 @@ def show_dashboard(auth):
         
         # Sidebar
         with st.sidebar:
-            st.markdown("### 🏖️  Gestionale Cormorano")
+            st.markdown("### 🏖️  Gestionale Lanterna")
             
             # Informazioni utente
             st.info(f"👤 **Utente:** {st.session_state.user_data['username']}")
@@ -1215,7 +1215,7 @@ def show_dashboard(auth):
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #666; font-size: 0.8em;'>
-        🏖️ Sistema Gestionale Cormorano - Sviluppato con Streamlit<br>
+        🏖️ Sistema Gestionale Lanterna - Sviluppato da Michele Landini<br>
         © 2024 - Gestione Noleggi Attrezzature Mare
     </div>
     """, unsafe_allow_html=True)
