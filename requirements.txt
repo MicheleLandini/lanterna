@@ -1,0 +1,3 @@
+PyYAML
+streamlit
+streamlit-authenticator
