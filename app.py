@@ -744,7 +744,6 @@ def show_dashboard(auth):
             st.divider()
             
             # Logout
-            """ authenticator.logout("Logout", "sidebar") """
 
         # Contenuto principale basato sulla pagina corrente
         if st.session_state.current_page == "home":
