@@ -413,7 +413,6 @@ def main():
 
 def show_auth_page(auth):
     """Mostra la pagina di autenticazione (login/register)"""
-    st.title("🔐 Sistema di Autenticazione")
 
     tab1, tab2 = st.tabs(["Accedi", "Registrati"])
 
